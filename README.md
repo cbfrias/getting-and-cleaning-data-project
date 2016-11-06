@@ -2,7 +2,7 @@
 # This is the course project for Getting and Cleaning Data course on Coursera. Source file is run_analysis.R, which does the following things: <h1>
 
 
-** Download the dataset if it does not already exist in the working directory.  <**
+** Download the dataset if it does not already exist in the working directory.  **
 -Check if zip has already been downloaded 
 -Check if zip has already been unzipped
 
