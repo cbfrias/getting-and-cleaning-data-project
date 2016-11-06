@@ -18,7 +18,7 @@
 
 **Extracts only the measurements on the mean and standard deviation for each measurement.**
 ######-Subset Name of Features by measurements on the mean and standard deviation. <H6>
--Subset the data frame Data by selected names of Features. <H6>
+######-Subset the data frame Data by selected names of Features. <H6>
 
 **Uses descriptive activity names to name the activities in the data set.**
 
