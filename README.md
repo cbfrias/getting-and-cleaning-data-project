@@ -3,7 +3,7 @@
 
 
 **Download the dataset if it does not already exist in the working directory.**
--Check if zip has already been downloaded 
+######-Check if zip has already been downloaded <H6>
 -Check if zip has already been unzipped
 
 **Load activity, subject and feature info. Read data from the files into the variables.**
