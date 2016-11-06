@@ -1,27 +1,32 @@
-Code Book
+# Code Book <H1>
 
-Variable and descriptions
+## Variable and descriptions <H2>
 
-Subject
+### Subject <H3>
 
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+**The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.**
 
-Variable name	Description
+####Variable name	Description <H4>
 subject	ID of the 30 volunteers who performed the activity. Its range is from 1 to 30.
-Activity
+
+
+####Activity <H4>
 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
-Variable name	Description
+####Variable name	Description <H4>
 activity	Activity type that the 30 volunteers who performed the activity.
-Its has 6 levels:
+
+**Its has 6 levels:**
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
 4. SITTING
 5. STANDING
 6. LAYING
-Features
+
+
+### Features <H3>
 
 Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz are captured. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
@@ -53,7 +58,9 @@ frequencyBodyAccelerometerMagnitude
 frequencyBodyAccelerometerJerkMagnitude
 frequencyBodyGyroscopeMagnitude
 frequencyBodyGyroscopeJerkMagnitude
-The set of variables that were estimated from these signals are:
+
+
+#### The set of variables that were estimated from these signals are: <H4>
 
 mean(): Mean value
 std(): Standard deviation
@@ -63,7 +70,7 @@ subject - The ID of the test subject
 activity - The type of activity performed when the corresponding measurements were taken
 Tidy Data Structure
 
-Column Heading (Unit wise)
+####  Column Heading (Unit wise) <H4>
 
 timeBodyAccelerometer-mean()-X (radians per sec)
 timeBodyAccelerometer-mean()-Y (radians per sec)
@@ -131,9 +138,11 @@ frequencyBodyGyroscopeMagnitude-mean() (hertz)
 frequencyBodyGyroscopeMagnitude-std() (hertz)
 frequencyBodyGyroscopeJerkMagnitude-mean() (hertz)
 frequencyBodyGyroscopeJerkMagnitude-std() (hertz)
-Final Dataset
+
+
+### Final Dataset <H3>
 
 str(newData)
-Final Dataset summary
+### Final Dataset summary <H3>
 
 summary(newData)
