@@ -21,6 +21,7 @@
 -Subset the data frame Data by selected names of Features.
 
 **Uses descriptive activity names to name the activities in the data set.**
+
 -Read descriptive activity names from activity_labels.txt 
 -Factorize variable activity in the data frame Data using descriptive activity names.
 
@@ -28,4 +29,4 @@
 
 **Creates an independent tidy data set with the average of each variable for each activity and each subject.**
 
-**Final output file is tidydata.txt **
+**Final output file is tidydata.txt**
